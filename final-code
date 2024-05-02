@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reddit Clone</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #0079d3;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #f5f5f5;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .post {
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin-bottom: 10px;
+            background-color: #fff;
+        }
+        .post h2 {
+            margin-top: 0;
+        }
+        .post p {
+            margin-bottom: 5px;
+        }
+        .post-footer {
+            font-size: 0.8em;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Reddit Clone</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a> |
+        <a href="#">Popular</a> |
+        <a href="#">New</a>
+    </nav>
+    <div class="container">
+        <div class="post">
+            <h2>Title of the Post</h2>
+            <p>This is the content of the post. It can be as long as needed.</p>
+            <div class="post-footer">
+                <span>Posted by: JohnDoe</span> |
+                <span>10 comments</span> |
+                <span>10 minutes ago</span>
+            </div>
+        </div>
+        <div class="post">
+            <h2>Another Post Title</h2>
+            <p>Content of another post goes here...</p>
+            <div class="post-footer">
+                <span>Posted by: JaneDoe</span> |
+                <span>5 comments</span> |
+                <span>1 hour ago</span>
+            </div>
+        </div>
+        <!-- More posts can be added here -->
+    </div>
+</body>
+</html>
